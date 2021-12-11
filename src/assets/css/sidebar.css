@@ -1,0 +1,33 @@
+.Sidebar {
+  position: fixed;
+  background: white;
+}
+
+.Sidebar-divider {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  width: 4px;
+  overflow: hidden;
+  cursor: e-resize;
+  user-select: none;
+}
+
+.Sidebar-divider:after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+}
+
+.isOpen {
+  transform: translateX(0%);
+}
+
+.isClosing {
+  transform: translateX(-100%);
+}

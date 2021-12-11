@@ -1,0 +1,14 @@
+.Presentation-img {
+  border: solid 10px black;
+}
+
+.Presentation-img-background {
+  display: block;
+  background-color: var(--primary-1);
+  padding: 0;
+  top: 80px;
+  bottom: 80px;
+  left: -28px;
+  right: -30px;
+  z-index: 1;
+}

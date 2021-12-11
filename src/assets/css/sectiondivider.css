@@ -1,0 +1,21 @@
+.Section-divider-container {
+}
+
+.horizontal-divider:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700%;
+  bottom: 0;
+  background-color: #000;
+}
+
+.horizontal-divider {
+  display: block;
+  height: 4px;
+  position: relative;
+  top: 50%;
+  margin-top: -2px;
+}
+
